@@ -84,7 +84,8 @@
 	--sidebar-border: oklch(0.922 0 0);
 	--sidebar-ring: oklch(0.708 0 0);
 	/* custom */
-	--mpk-primary: oklch(55.169% 0.1486 146.705);
+	--mpk-primary: oklch(0.7 0.1 316);
+	--mpk-secondary: oklch(0.7 0.1 316);
 }
 
 .dark {
