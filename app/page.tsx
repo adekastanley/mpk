@@ -1,5 +1,6 @@
 import Features from "@/components/sections/features";
 import PartnershipImpact from "@/components/sections/partnership-impact";
+import SupportFAQ from "@/components/sections/support-faq";
 import Hero from "@/components/sections/hero";
 import HowItWorks from "@/components/sections/howItWorks";
 import Problem from "@/components/sections/problem";
@@ -13,9 +14,11 @@ export default function Home() {
 				<HowItWorks />
 			</div>
 			{/* Features needs full viewport width for horizontal scroll — no constraining wrapper */}
-		<Features />
-		<PartnershipImpact />
-			<div className="h-screen"></div>
+			<Features />
+			<div className="max-w-7xl ">
+				<PartnershipImpact />
+				<SupportFAQ />
+			</div>
 		</div>
 	);
 }

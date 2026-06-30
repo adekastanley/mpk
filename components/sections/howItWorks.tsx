@@ -1,7 +1,7 @@
 export default function HowItWorks() {
 	return (
-		<div className=" flex flex-col lg:flex-row max-md:items-center font-light min-h-100 lg:min-h-120 relative ">
-			<div className="w-full ">
+		<div className="flex flex-col lg:flex-row max-md:items-center font-light min-h-100 lg:min-h-120 relative ">
+			<div className="w-full  ">
 				<h2 className="lg:text-5xl text-4xl  max-md:text-center ">
 					SEAMLESS ACCESS
 				</h2>
