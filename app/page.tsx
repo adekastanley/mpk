@@ -11,11 +11,8 @@ export default function Home() {
 				<Problem />
 				<HowItWorks />
 			</div>
-			<div className="bg-amber-400/10 mask-t-from-90% mask-t-to-100% mask-b-from-90% mask-b-to-100%">
-				<div className="max-w-7xl mx-auto py-20  max-sm:px-1">
-					<Features />
-				</div>
-			</div>
+			{/* Features needs full viewport width for horizontal scroll — no constraining wrapper */}
+		<Features />
 			<div className="h-screen"></div>
 		</div>
 	);
