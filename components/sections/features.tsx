@@ -127,14 +127,13 @@ function FeatureCard({
 // ─── Mobile: native snap carousel ────────────────────────────────────────────
 function MobileCarousel() {
 	return (
-		<section id="features" className="md:hidden w-full py-16 bg-background">
+		<section id="features" className="md:hidden w-full py-16 bg-background ">
 			<div className="px-6 mb-8">
 				<p className="text-xs font-semibold tracking-[0.2em] uppercase text-mpk-primary mb-3">
 					What we offer
 				</p>
 				<h2 className="text-4xl font-bold tracking-tighter text-foreground leading-none mb-4">
-					Safe. Private.{" "}
-					<span className="text-mpk-primary">Supportive.</span>
+					Safe. Private. <span className="text-mpk-primary">Supportive.</span>
 				</h2>
 				<p className="text-muted-foreground text-base leading-relaxed">
 					Essential tools designed around privacy, convenience, and cultural
@@ -150,7 +149,7 @@ function MobileCarousel() {
 					<div
 						key={index}
 						className="snap-center flex-shrink-0"
-						style={{ width: "82vw", height: "56vw", minHeight: 240 }}
+						style={{ width: "82vw", height: "56vw", minHeight: 400 }}
 					>
 						<FeatureCard feature={feature} index={index} alwaysShowDesc />
 					</div>
@@ -189,8 +188,7 @@ function DesktopHorizontalScroll() {
 			if (!trackRef.current) return;
 			// scrollWidth of the track minus viewport width = how far we need to
 			// push it left to reveal every card.
-			const scrollPx =
-				trackRef.current.scrollWidth - window.innerWidth;
+			const scrollPx = trackRef.current.scrollWidth - window.innerWidth;
 			setDims({ scrollPx, winH: window.innerHeight });
 		}
 
@@ -212,8 +210,7 @@ function DesktopHorizontalScroll() {
 	//
 	// Before measurement (scrollPx = 0, winH = 0) fall back to 100vh so the
 	// section at least shows something during the first paint.
-	const sectionHeight =
-		scrollPx > 0 && winH > 0 ? scrollPx + winH : "100vh";
+	const sectionHeight = scrollPx > 0 && winH > 0 ? scrollPx + winH : "100vh";
 
 	const { scrollYProgress } = useScroll({
 		target: sectionRef,

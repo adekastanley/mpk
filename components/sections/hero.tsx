@@ -6,7 +6,7 @@ import { Magnetic } from "../motion-primitives/magnetic";
 export default function Hero() {
 	const springOptions = { bounce: 0.1 };
 	return (
-		<div className=" bg-amber-400/10 mask-b-from-90% mask-b-to-100% overflow-hidden ">
+		<div className=" bg-amber-400/10 mask-b-from-90% mask-b-to-100% overflow-hidden  max-md:pt-5">
 			<div className="h-screen text-center max-w-7xl mx-auto lg:min-w-7xl  gap-2 w-full flex flex-col justify-end items-center relative">
 				<div className="bg-purple-300 absolute bottom-50">
 					<div className="absolute bg-mpk-primary w-100 h-100 -z-1 rounded-full left-5    bg-radial-[at_40%_100%] opacity-50 blur-3xl from-mpk-primary via-mpk-primary  to-transparent "></div>
@@ -22,8 +22,8 @@ export default function Hero() {
 				>
 					My Period Companion.
 				</Badge>
-				<h1 className="lg:text-7xl text-5xl lg:px-40    font-sans   ">
-					A friendly period companion, always close by..
+				<h1 className="lg:text-7xl text-4xl lg:px-40  font-sans   ">
+					A friendly period companion, always close by.
 				</h1>
 				<div className="   lg:px-70 ">
 					<p className="md:text-xl  ">
