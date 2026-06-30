@@ -1,8 +1,10 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
 import { Badge } from "../ui/badge";
+import { Magnetic } from "../motion-primitives/magnetic";
 
 export default function Hero() {
+	const springOptions = { bounce: 0.1 };
 	return (
 		<div className=" bg-amber-400/10 mask-b-from-90% mask-b-to-100% overflow-hidden ">
 			<div className="h-screen text-center max-w-7xl mx-auto lg:min-w-7xl  gap-2 w-full flex flex-col justify-end items-center relative">
@@ -29,9 +31,27 @@ export default function Hero() {
 						or the First Period Toolkit.
 					</p>
 				</div>
-				<div>
-					<Button size={"lg"}>Get The App</Button>
-					<Button size={"lg"}>Get Help</Button>
+				<div className=" flex gap-5 ">
+					<Magnetic
+						intensity={0.2}
+						springOptions={springOptions}
+						actionArea="global"
+						range={200}
+					>
+						<Button
+							size={"lg"}
+							className="p-3 bg-mpk-primary hover:bg-mpk-primary transition-all duration-200 ease-in-out  hover:scale-110"
+						>
+							Get The App
+						</Button>
+					</Magnetic>
+
+					<Button
+						size={"lg"}
+						className="p-3 bg-transparent border-2 border-mpk-primary text-mpk-primary transition-all duration-200 ease-in-out  hover:bg-mpk-primary hover:text-white"
+					>
+						Get Help
+					</Button>
 				</div>
 				<div>
 					<Image

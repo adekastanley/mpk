@@ -1,8 +1,12 @@
 export default function Problem() {
 	return (
-		<div className="flex flex-col items-center gap-5 text-center   min-h-screen pt-10 md:pt-40">
-			<h2 className="font-sans text-3xl">THE REALITY FOR MILLIONS</h2>
-			<p>Menstruation should`t be a barrier to education, dignity, or health</p>
+		<div className="flex flex-col items-center gap-5 text-center   min-h-120 pt-10 md:pt-40">
+			<h2 className="font-sans text-4xl lg:text-5xl font-thin">
+				THE REALITY FOR MILLIONS
+			</h2>
+			<p className="text-lg lg:text-3xl">
+				Menstruation should`t be a barrier to education, dignity, or health
+			</p>
 
 			<div>
 				<p className="lg:px-40">
