@@ -2,29 +2,40 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Plus, ShieldAlert, ArrowRight, ShieldCheck, LifeBuoy } from "lucide-react";
+import {
+	Plus,
+	ShieldAlert,
+	ArrowRight,
+	ShieldCheck,
+	LifeBuoy,
+} from "lucide-react";
 import Link from "next/link";
 
 const FAQS = [
 	{
 		question: "How do I start using the WhatsApp companion?",
-		answer: "Simply tap the 'Start on WhatsApp' button anywhere on our site, or scan the QR code found in the First Period Toolkit. The chatbot will safely guide you through a quick onboarding process.",
+		answer:
+			"Simply tap the 'Start on WhatsApp' button anywhere on our site, or scan the QR code found in the First Period Toolkit. The chatbot will safely guide you through a quick onboarding process.",
 	},
 	{
 		question: "Is my health data and conversation private?",
-		answer: "Yes. Your privacy is our highest priority. We do not sell or share your personal health conversations. All chats are secured, and we follow strict safeguarding guidelines to protect adolescent data.",
+		answer:
+			"Yes. Your privacy is our highest priority. We do not sell or share your personal health conversations. All chats are secured, and we follow strict safeguarding guidelines to protect adolescent data.",
 	},
 	{
 		question: "How do I request a First Period Toolkit for my school?",
-		answer: "Schools and educators can request toolkits by visiting the 'Partners' page and submitting a partnership enquiry form. Our team will follow up to discuss distribution and implementation.",
+		answer:
+			"Schools and educators can request toolkits by visiting the 'Partners' page and submitting a partnership enquiry form. Our team will follow up to discuss distribution and implementation.",
 	},
 	{
 		question: "What do I do if I need urgent medical help?",
-		answer: "My Period Companion is for education and support, not emergencies. If you are experiencing severe pain, heavy bleeding, or a medical emergency, please contact a local clinic or emergency service immediately.",
+		answer:
+			"My Period Companion is for education and support, not emergencies. If you are experiencing severe pain, heavy bleeding, or a medical emergency, please contact a local clinic or emergency service immediately.",
 	},
 	{
 		question: "Can parents or guardians use this?",
-		answer: "Absolutely. We have specific resources designed to help parents and guardians navigate conversations about puberty, menstruation, and how to support their child.",
+		answer:
+			"Absolutely. We have specific resources designed to help parents and guardians navigate conversations about puberty, menstruation, and how to support their child.",
 	},
 ];
 
@@ -81,10 +92,9 @@ export default function SupportFAQ() {
 	const [openIndex, setOpenIndex] = useState<number>(0);
 
 	return (
-		<section className="relative w-full py-24 lg:py-32 bg-background">
+		<section className="relative w-full py-24 lg:py-32 bg-background ">
 			<div className="container mx-auto px-6 md:px-12 lg:px-20 max-w-7xl">
 				<div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-start">
-					
 					{/* ── Left Column: Sticky Safety Card ── */}
 					<div className="lg:col-span-5 lg:sticky lg:top-32 flex flex-col gap-8">
 						<div>
@@ -102,17 +112,25 @@ export default function SupportFAQ() {
 							<div className="absolute top-0 right-0 p-6 opacity-10 pointer-events-none">
 								<ShieldCheck className="w-32 h-32 text-mpk-primary" />
 							</div>
-							
+
 							<div className="relative z-10">
 								<div className="w-12 h-12 rounded-xl bg-mpk-primary/10 flex items-center justify-center mb-6 text-mpk-primary">
 									<ShieldAlert className="w-6 h-6" />
 								</div>
-								
-								<h3 className="text-xl font-bold mb-3 text-foreground">Safety Disclaimer</h3>
+
+								<h3 className="text-xl font-bold mb-3 text-foreground">
+									Safety Disclaimer
+								</h3>
 								<p className="text-muted-foreground leading-relaxed mb-6">
-									My Period Companion provides education and referral guidance. It is <strong>not a replacement for emergency care or clinical consultation.</strong> Your privacy and safety are our highest priority.
+									My Period Companion provides education and referral guidance.
+									It is{" "}
+									<strong>
+										not a replacement for emergency care or clinical
+										consultation.
+									</strong>{" "}
+									Your privacy and safety are our highest priority.
 								</p>
-								
+
 								<div className="flex flex-col sm:flex-row gap-4">
 									<button className="inline-flex items-center justify-center px-6 py-3 font-semibold text-white bg-foreground rounded-full hover:bg-foreground/90 transition-colors">
 										Get Support
@@ -123,15 +141,20 @@ export default function SupportFAQ() {
 								</div>
 							</div>
 						</div>
-						
+
 						{/* Additional Contact Prompt */}
 						<div className="flex items-center gap-4 p-6 rounded-2xl bg-card border border-border">
 							<div className="w-10 h-10 rounded-full bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0">
 								<LifeBuoy className="w-5 h-5" />
 							</div>
 							<div>
-								<h4 className="font-semibold text-foreground">Still have questions?</h4>
-								<Link href="#" className="text-mpk-primary hover:underline font-medium text-sm inline-flex items-center gap-1 mt-1">
+								<h4 className="font-semibold text-foreground">
+									Still have questions?
+								</h4>
+								<Link
+									href="#"
+									className="text-mpk-primary hover:underline font-medium text-sm inline-flex items-center gap-1 mt-1"
+								>
 									Contact our team <ArrowRight className="w-3 h-3" />
 								</Link>
 							</div>
@@ -152,7 +175,6 @@ export default function SupportFAQ() {
 							))}
 						</div>
 					</div>
-					
 				</div>
 			</div>
 		</section>

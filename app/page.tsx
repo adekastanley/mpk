@@ -15,7 +15,7 @@ export default function Home() {
 			</div>
 			{/* Features needs full viewport width for horizontal scroll — no constraining wrapper */}
 			<Features />
-			<div className="max-w-7xl ">
+			<div className="max-w-7xl mx-auto">
 				<PartnershipImpact />
 				<SupportFAQ />
 			</div>
