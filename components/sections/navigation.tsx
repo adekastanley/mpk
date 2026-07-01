@@ -12,7 +12,7 @@ const navLinks = [
 ];
 
 // Easing for smooth Awwards feel
-const transition = { duration: 0.8, ease: [0.76, 0, 0.24, 1] };
+const transition = { duration: 0.8, ease: [0.76, 0, 0.24, 1] as const };
 
 const menuVariants = {
   initial: { y: "-100%" },
@@ -38,8 +38,8 @@ const containerVariants = {
 
 const linkVariants = {
   initial: { y: "120%", opacity: 0, rotate: 3 },
-  animate: { y: "0%", opacity: 1, rotate: 0, transition: { duration: 0.8, ease: [0.76, 0, 0.24, 1] } },
-  exit: { y: "120%", opacity: 0, rotate: -3, transition: { duration: 0.6, ease: [0.76, 0, 0.24, 1] } },
+  animate: { y: "0%", opacity: 1, rotate: 0, transition: { duration: 0.8, ease: [0.76, 0, 0.24, 1] as const } },
+  exit: { y: "120%", opacity: 0, rotate: -3, transition: { duration: 0.6, ease: [0.76, 0, 0.24, 1] as const } },
 };
 
 export function Navigation() {
