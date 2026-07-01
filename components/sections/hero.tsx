@@ -7,7 +7,7 @@ export default function Hero() {
 	const springOptions = { bounce: 0.1 };
 	return (
 		<div className=" bg-amber-400/10 mask-b-from-90% mask-b-to-100% overflow-hidden  max-md:pt-5">
-			<div className="h-screen text-center max-w-7xl mx-auto lg:min-w-7xl  gap-2 w-full flex flex-col justify-end items-center relative">
+			<div className="h-screen text-center max-w-7xl mx-auto lg:min-w-7xl  gap-4 w-full flex flex-col justify-end items-center relative">
 				<div className="bg-purple-300 absolute bottom-50">
 					<div className="absolute bg-mpk-primary w-100 h-100 -z-1 rounded-full left-5    bg-radial-[at_40%_100%] opacity-50 blur-3xl from-mpk-primary via-mpk-primary  to-transparent "></div>
 					<div className="absolute  w-100 h-100 -z-1 right-5 blur-3xl rounded-full top bg-radial-[at_50%_100%] opacity-30 from-mpk-primary via-blue-400  to-transparent"></div>
@@ -40,7 +40,7 @@ export default function Hero() {
 					>
 						<Button
 							size={"lg"}
-							className="p-3 bg-mpk-primary hover:bg-mpk-primary transition-all duration-200 ease-in-out  hover:scale-110"
+							className=" rounded-4xl p-6 bg-mpk-primary hover:bg-mpk-primary transition-all duration-200 ease-in-out  hover:scale-110"
 						>
 							Get The App
 						</Button>
@@ -48,7 +48,7 @@ export default function Hero() {
 
 					<Button
 						size={"lg"}
-						className="p-3 bg-transparent border-2 border-mpk-primary text-mpk-primary transition-all duration-200 ease-in-out  hover:bg-mpk-primary hover:text-white"
+						className=" bg-transparent rounded-4xl p-6  border-2 border-mpk-primary text-mpk-primary transition-all duration-200 ease-in-out  hover:bg-mpk-primary hover:text-white"
 					>
 						Get Help
 					</Button>

@@ -9,7 +9,7 @@ export default function Problem() {
 			</p>
 
 			<div>
-				<p className="lg:px-40">
+				<p className="lg:px-40 text-lg font-light opacity-60">
 					For millions of adolescent girls, managing a natural monthly cycle
 					comes with silent challenges. Due to a lack of clear information,
 					social taboos, and systemic gaps, navigating the first period is often
