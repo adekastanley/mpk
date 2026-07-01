@@ -1,0 +1,1258 @@
+OFFICIAL WEBSITE REQUIREMENTS DOCUMENT
+My Period Companion
+A detailed Website Requirements Specification for the public-facing platform, onboarding gateway, partner engagement portal, and digital credibility hub.
+
+Prepared for
+My Period Kit
+Application/Product
+My Period Companion
+Document Type
+Website Requirements Specification (WRS)
+Version
+1.0
+Date
+29 June 2026
+Confidential draft for planning, design, development, partnership, and implementation alignment.
+
+Document Control
+Item
+Details
+Source basis
+Existing Software Requirements Specification for My Period Companion, describing an AI-powered, voice-first, disability-inclusive menstrual health ecosystem.
+Website requirement focus
+Public-facing official website that introduces the application, builds trust, supports onboarding, provides educational resources, captures partner interest, and routes users to WhatsApp, IVR, SMS/USSD, and support services.
+Intended audience
+Founder/leadership, product team, website designer, web developer, content writer, implementation partners, funders, schools, clinics, NGOs, and quality assurance reviewers.
+Document status
+Draft for review and refinement before design sign-off.
+
+How to Use This Document
+Use Sections 1-6 to align leadership, partners, and the development team on the purpose of the official website.
+Use Sections 7-12 as the main website design and development brief, including sitemap, page content, user journeys, and feature requirements.
+Use Sections 13-20 for technical implementation, privacy, accessibility, SEO, testing, deployment, and ongoing maintenance.
+Use the appendices as checklists for content preparation, design handoff, launch readiness, and requirement traceability.
+Document Sections
+Section
+Content Summary
+1. Executive Summary
+Website purpose, strategic value, and expected outcomes.
+2. Product Context
+Background from the My Period Companion application requirement.
+3. Website Goals
+Business, user, programmatic, and impact objectives.
+4. Scope
+What the website must include and what is outside the first release.
+5. Stakeholders and Users
+Audience segments and their needs.
+6. User Journeys
+How different users should move through the website.
+7. Information Architecture
+Sitemap and navigation model.
+8. Page Requirements
+Detailed page-by-page content and functionality.
+9-12. Functional, Content, UX, and Accessibility Requirements
+Implementation-level requirements.
+13-20. Technical, Privacy, Admin, SEO, Testing, Deployment, Governance
+Delivery and operational requirements.
+Appendices
+Checklists, wireframe description, and traceability matrix.
+
+1. Executive Summary
+This document defines the requirements for the official website of My Period Companion. The website is not intended to replace the core application channels; rather, it will serve as the public gateway and credibility layer for the product ecosystem. It will explain the mission, communicate the value proposition, support user onboarding, provide trusted menstrual health education, showcase accessibility and inclusion commitments, and create clear pathways for partners, funders, schools, clinics, NGOs, and adolescent users to engage safely with the initiative.
+The source application requirement positions My Period Companion as an AI-powered, voice-first, disability-inclusive menstrual health ecosystem integrating education, period tracking, rights advocacy, product access, emotional support, and physical-first touchpoints such as the First Period Toolkit. The official website must therefore reflect the same principles: simple language, privacy-first design, disability inclusion, multi-language readiness, safety escalation awareness, and practical calls to action.
+Website positioning statement
+The official website should make My Period Companion easy to understand, easy to trust, easy to access, and easy to partner with. It should be warm, safe, adolescent-friendly, culturally sensitive, and credible enough for schools, funders, clinics, NGOs, and policymakers.
+
+1.1 Expected Website Outcomes
+Improve public understanding of the application and the menstrual health problem it solves.
+Provide a professional official presence that can be shared with funders, partners, schools, community organizations, and media.
+Give users clear access routes to WhatsApp onboarding, IVR, SMS/USSD instructions, toolkit information, and support resources.
+Present the application as safe, inclusive, privacy-conscious, and grounded in adolescent health needs.
+Capture partner, school, clinic, donor, volunteer, and media enquiries through structured forms.
+Support future scale by making the website multilingual, SEO-ready, analytics-enabled, and content-managed.
+1.2 Success Definition
+Success Area
+Definition of Success
+Trust
+Visitors can understand the mission, team, safety approach, and privacy principles within the first few minutes.
+Access
+A young user or parent can easily find how to start through WhatsApp, IVR, SMS/USSD, or toolkit QR code.
+Partnership
+Schools, clinics, NGOs, funders, and community partners can submit structured enquiries without needing informal messaging first.
+Education
+The website provides age-appropriate, culturally sensitive, and accessible menstrual health information.
+Inclusion
+The site is usable for low-literacy users and users with visual, hearing, motor, cognitive, or language barriers.
+Measurement
+The team can track traffic, onboarding clicks, resource downloads, partner enquiries, and engagement trends.
+
+2. Product Context and Background
+2.1 Application Summary
+My Period Companion is designed as a digital and physical menstrual health support ecosystem. The application concept includes menstrual education, period tracking, rights and safety information, access to period products, emotional support, and referral pathways. It is designed for adolescent girls, especially first-time menstruators, while also supporting parents, educators, community health workers, NGOs, clinics, schools, policymakers, and funders.
+2.2 Current Core Channels
+Channel
+Role in Ecosystem
+Website Relationship
+WhatsApp chatbot
+Primary conversational entry point for onboarding, questions, reminders, tracking, and support.
+Website must include prominent WhatsApp start button, QR code placement, and guidance on what the bot can do.
+IVR/voice calls
+Voice-first support for low-literacy users, visually impaired users, and feature-phone users.
+Website must describe how to dial in and include voice accessibility as a key differentiator.
+SMS/USSD
+Offline-prone and feature-phone support for basic tracking and reminders.
+Website must provide short-code instructions, usage tips, and privacy notes.
+Optional web/mobile app
+Future or supplementary digital interface for richer features.
+Website may later link to app store pages, web portal, or progressive web app.
+First Period Toolkit
+Physical-first onboarding pathway that may include QR codes and printed materials.
+Website must include toolkit explanation, ordering/partnership enquiry, and digital onboarding flow.
+
+2.3 Key Application Capabilities Referenced by the Website
+Onboarding through QR code, WhatsApp START message, IVR, and other lightweight entry points.
+Big Sister Mode for natural-language Q&A on periods, SRHR, consent, GBV, stigma, and referrals.
+Period Tracker Lite that accepts voice, SMS, or WhatsApp entries and sends reminders.
+Edutainment Hub with short drama or story-based learning content.
+Toolkit Builder that helps users understand what to pack, how to care for products, and how to refill supplies.
+Access and Locator Tool for clinics, vendors, free pads, and support services.
+Emotional and mental health check-ins with coping tips and referral to helplines where needed.
+Accessibility layer covering text-to-speech, captions/transcripts, Braille-friendly print materials, and simple navigation.
+2.4 Website Role in the Ecosystem
+The website should act as the official public face of the application. It must communicate trust and clarity while avoiding overpromising clinical or emergency services. It should educate, route, capture, and report. The website should not store sensitive adolescent health data unless there is a clearly approved privacy, safeguarding, consent, and data governance process.
+3. Website Goals and Objectives
+Objective Category
+Detailed Objective
+Awareness
+Explain the menstrual health challenge, the application solution, and why voice-first and disability-inclusive support matters.
+User onboarding
+Guide users to start safely through WhatsApp, IVR, SMS/USSD, QR code, or toolkit pathways.
+Education
+Publish simple, trusted, age-appropriate educational content on periods, cramps, hygiene, stigma, consent, and support.
+Partner engagement
+Allow schools, clinics, NGOs, pharmacies, community organizations, and funders to request collaboration.
+Product credibility
+Present evidence, implementation model, roadmap, languages, privacy principles, and impact metrics.
+Accessibility
+Ensure content is accessible to users with low literacy, visual impairment, hearing impairment, neurodiversity, and limited connectivity.
+Growth
+Support search visibility, social sharing, campaign landing pages, newsletter capture, and data-driven improvements.
+
+3.1 Primary Calls to Action
+CTA
+Target Audience
+Expected Action
+Start on WhatsApp
+Adolescent users, parents, educators, CHWs
+Open WhatsApp chatbot or show QR code and onboarding instructions.
+Dial Voice Support
+Low-literacy users, visually impaired users, feature-phone users
+Display IVR phone number and safe usage note.
+Get the First Period Toolkit
+Parents, schools, NGOs, community groups
+Submit request or partnership enquiry for toolkit availability.
+Partner With Us
+Schools, clinics, NGOs, pharmacies, funders
+Complete structured partner form with organization details.
+Learn About Periods
+Adolescents, parents, educators
+Access resource articles, FAQs, audio, transcripts, and stories.
+Request Support / Referral
+Users facing stigma, anxiety, abuse, or urgent needs
+See safe support guidance, helpline links, and emergency disclaimer.
+
+4. Website Scope
+4.1 In-Scope for Version 1.0
+Responsive official website for desktop, tablet, and mobile browsers.
+Core pages: Home, About, How It Works, Features, First Period Toolkit, Learn, Accessibility and Inclusion, Partners, Impact, FAQ, Contact, Privacy and Safety.
+Clear onboarding CTAs for WhatsApp, IVR, SMS/USSD, and QR code-based access.
+Partner, school, clinic, media, and funder enquiry forms with notification workflow.
+Content-managed blog/resource section for menstrual health articles, audio transcripts, and stories.
+Basic analytics for traffic, CTA clicks, form submissions, downloads, resource engagement, and conversion routes.
+SEO setup, social sharing metadata, privacy notice, cookie notice where applicable, and basic search engine indexing.
+Accessibility requirements aligned with WCAG 2.2 AA and inclusive content principles.
+Admin/CMS roles for content creation, review, publishing, and enquiry management.
+4.2 Out-of-Scope for Version 1.0 Unless Approved
+Full clinical case management system or electronic medical record.
+Real-time emergency response or live counselling, unless delivered through approved partners.
+Collection of detailed menstrual cycle histories directly on the public website.
+Storage of sensitive child/adolescent health disclosures without approved safeguarding and consent protocols.
+Full e-commerce marketplace for period products, unless a later phase adds vendor integrations.
+Complex AI chatbot embedded on the website before safety, moderation, age-appropriate content, and escalation rules are fully approved.
+Public map of sensitive support service locations if it creates safety, privacy, or stigma risks.
+4.3 Assumptions
+Assumption
+Implication
+The core application runs primarily through messaging, IVR, SMS/USSD, and physical toolkit pathways.
+The website should route to these channels rather than recreate every product function.
+The target audience includes minors and first-time menstruators.
+Content, privacy, safeguarding, consent, and language must be handled with additional care.
+The project may work with schools, clinics, CSOs, pharmacies, and funders.
+The website must be credible, professional, and provide partner-specific information.
+The application is intended for low-literacy, offline-prone, and disability-affected users.
+The website must not rely only on long text; it should include audio, icons, simple language, transcripts, and lightweight pages.
+The product may expand across languages and West African contexts.
+The architecture should support localization and content translation from the beginning.
+
+5. Stakeholders, Users, and Personas
+5.1 Stakeholder Groups
+Stakeholder
+Needs from Website
+Website Response
+Adolescent girls and first-time menstruators
+Safe, simple, stigma-free information and access to the companion.
+Friendly landing content, simple FAQs, WhatsApp/voice start options, privacy reassurance.
+Parents and guardians
+Trust, guidance, toolkit information, and reassurance about safety.
+Parent-focused content, toolkit page, privacy and safeguarding page.
+Educators and schools
+Menstrual health education resources and implementation support.
+School partnership page, downloadable materials, request form.
+Community health workers
+Field-friendly instructions and referral pathways.
+How-it-works content, resource library, support guide.
+Clinics and pharmacies
+Referral, product access, and service listing opportunities.
+Partner form and future locator participation process.
+NGOs and CSOs
+Collaboration pathway, impact evidence, implementation model.
+Partners page, impact page, proposal-friendly overview.
+Funders and accelerators
+Clear theory of change, roadmap, metrics, governance, and scalability.
+Impact, roadmap, data privacy, and partnership pages.
+Media and policymakers
+Official narrative, contact details, press information, and evidence.
+Media kit section and policy/advocacy summary.
+
+5.2 Website Personas
+Persona
+Scenario
+Primary Need
+Desired Website Outcome
+Amina, 13, first-time menstruator
+She received a toolkit and sees a QR code but is shy to ask questions.
+Private, simple, reassuring access to help.
+Scans QR code, reads simple welcome note, starts WhatsApp or IVR.
+Mrs. Ade, parent
+Her daughter started menstruating and she wants practical support.
+Trustworthy guidance and toolkit content.
+Finds parent guide, toolkit information, and how to use the companion.
+School counsellor
+Wants to introduce menstrual health support to students.
+Implementation information and contact route.
+Downloads school brief and submits partnership form.
+Clinic focal person
+Wants to connect adolescents to nearby menstrual and SRHR services.
+Referral and listing guidance.
+Reads partner expectations and requests onboarding as a service point.
+Funder/accelerator reviewer
+Wants to understand innovation, inclusion, roadmap, and impact.
+Professional project evidence and success metrics.
+Reviews impact page, roadmap, and books a partnership call.
+
+6. Core Website User Journeys
+Journey ID
+User Journey
+Steps
+Success Criteria
+UJ-001
+Adolescent starts using the companion
+Visits Home > taps Start on WhatsApp or Dial Voice Support > sees privacy/safety note > opens channel > receives onboarding prompt.
+User reaches the correct onboarding channel within two clicks from the homepage.
+UJ-002
+Parent learns how to support a child
+Visits Home > Parent/Guardian section > reads first-period guidance > explores toolkit > submits request or starts companion.
+Parent understands toolkit purpose and how to access support.
+UJ-003
+School requests implementation support
+Visits Partners > selects School/Institution > reviews benefits and responsibilities > submits partner form.
+Team receives a complete enquiry with school name, contact, location, and interest area.
+UJ-004
+Funder reviews credibility
+Visits Impact > reads problem, model, metrics, roadmap, privacy and inclusion approach > submits meeting request.
+Funder can assess feasibility and request follow-up without back-and-forth for basic information.
+UJ-005
+User seeks help for stigma or sensitive issue
+Visits Safety/Support or FAQ > sees clear non-emergency disclaimer > receives referral information and helpline options.
+User receives safe, non-judgmental guidance and is routed to appropriate support.
+UJ-006
+Community partner wants to list products/services
+Visits Partner page > reads supply point participation requirements > submits service listing interest form.
+Admin receives structured data for review before any public listing.
+
+Safety principle for all journeys
+Every journey involving adolescents, SRHR information, GBV, stigma, emotional distress, or product access must be designed with clear consent, privacy, safeguarding, and referral boundaries. The website must not present itself as an emergency service unless a formal emergency response partnership exists.
+
+7. Information Architecture and Sitemap
+7.1 Recommended Top Navigation
+Navigation Item
+Purpose
+Recommended Subpages / Sections
+Home
+Introduce the product, mission, access routes, and primary CTAs.
+Hero, problem, solution, features, toolkit, impact, partner CTA.
+How It Works
+Explain user access channels and application flow.
+WhatsApp, IVR, SMS/USSD, QR code, privacy, reminders.
+Features
+Describe core capabilities in plain language.
+Big Sister Mode, Period Tracker, Edutainment, Toolkit Builder, Access Locator, Emotional Check-ins.
+First Period Toolkit
+Explain physical-first support package and digital onboarding.
+What is inside, how to use it, schools/parents request, QR onboarding.
+Learn
+Provide educational articles, FAQs, audio stories, and drama transcripts.
+Periods 101, cramps, hygiene, stigma, consent, school support, myths.
+Accessibility
+Show disability-inclusive and low-literacy design commitments.
+Voice-first, captions, transcripts, icon navigation, braille-friendly materials.
+Partners
+Capture schools, clinics, NGOs, pharmacies, funders, and CSOs.
+Partner types, benefits, responsibilities, form, partner resources.
+Impact
+Show metrics, roadmap, stories, and theory of change.
+MVP targets, pilot roadmap, dashboard highlights, case stories.
+Contact
+Provide direct communication routes.
+General enquiry, media, partnership, support, office/contact details.
+
+7.2 Sitemap
+Level 1 Page
+Level 2 Sections
+Notes
+Home
+Hero; Start Now; Why It Matters; How It Helps; Built for Inclusion; Toolkit; Impact Preview; Partner CTA; FAQ Preview
+Homepage must prioritize clarity, trust, and onboarding.
+About
+Mission; Founder/Team; Problem; Solution; Values; Safeguarding
+Can be combined with Home for MVP if content is limited.
+How It Works
+Choose your channel; WhatsApp; IVR; SMS/USSD; QR code; privacy; reminders
+Should include simple step-by-step flow.
+Features
+Big Sister Mode; Period Tracker; Edutainment; Toolkit Builder; Access Locator; Emotional Check-ins
+Each feature should be presented with benefits, not technical jargon.
+First Period Toolkit
+What is included; who it is for; how QR onboarding works; request toolkit; partner distribution
+Important for schools, parents, and NGOs.
+Learn / Resources
+Articles; audio; transcripts; drama episodes; FAQs; downloadable guides
+Content should be CMS-managed.
+Accessibility & Inclusion
+Disability features; low literacy; language support; offline support; inclusive design principles
+Important credibility page for funders and partners.
+Partners
+Schools; clinics; pharmacies; NGOs; funders; implementation model; enquiry form
+Should capture structured leads.
+Impact
+Theory of change; metrics; roadmap; pilot sites; success stories; dashboard highlights
+Use verified metrics only.
+Support & Safety
+Privacy; sensitive disclosures; referral boundaries; helplines; emergency disclaimer
+May be standalone or under Privacy/Safety.
+Contact
+General contact form; media enquiry; partner enquiry; newsletter signup
+Include privacy consent checkbox.
+Legal
+Privacy Policy; Terms; Cookie Notice; Safeguarding Statement; Content Disclaimer
+Must be available before launch.
+
+8. Page-by-Page Website Requirements
+This section defines the minimum content, functionality, and acceptance expectations for each major website page. The design team should treat these as page briefs, while the development team should translate them into components, CMS fields, routes, and test cases.
+Page
+Purpose
+Required Content
+Primary CTA
+Acceptance Criteria
+Home
+Build immediate trust and route users to the right action.
+Hero message, simple explanation, major CTAs, feature highlights, inclusion proof, toolkit, partner CTA, impact teaser.
+Start on WhatsApp; Dial IVR; Learn More; Partner With Us.
+Hero CTA works; mobile-first layout; key message understood without scrolling too far.
+About
+Explain mission, origin, values, team, and why the solution exists.
+Mission, founder note, problem statement, solution model, values, safeguarding commitment.
+Meet the Team; Partner With Us.
+No unsupported claims; language is warm, credible, and culturally sensitive.
+How It Works
+Explain access pathways and basic user flow.
+Step-by-step onboarding via WhatsApp, IVR, SMS/USSD, QR code; privacy note; reminders overview.
+Start Now; See FAQs.
+A first-time visitor can understand how to begin in under two minutes.
+Features
+Show application modules and benefits.
+Big Sister Mode, period tracker, edutainment hub, toolkit builder, access locator, emotional check-ins.
+Explore Features; Start on WhatsApp.
+Each feature has plain-language description, benefit, and channel availability.
+First Period Toolkit
+Position the physical toolkit as a gateway into the digital ecosystem.
+Toolkit purpose, components, QR onboarding, school/parent use cases, request form.
+Request Toolkit; Distribute in My School.
+Clear distinction between product information and medical advice.
+Learn / Resources
+Provide trusted menstrual health learning materials.
+Article categories, audio stories, transcripts, FAQ, downloads, age-appropriate content.
+Read; Listen; Download; Share.
+CMS can publish, categorize, search, and update resources.
+Accessibility & Inclusion
+Demonstrate inclusive design and disability commitments.
+Voice-first access, TTS, captions, transcripts, Braille-friendly materials, icon navigation, low-literacy design.
+Learn How It Works; Partner With Us.
+Page passes accessibility audit and explains inclusion without tokenism.
+Partners
+Convert institutional interest into structured enquiries.
+Partner types, benefits, eligibility, distribution model, implementation support, partner form.
+Become a Partner; Request a Demo.
+Form captures organization type, location, contact, interest, message, consent.
+Impact
+Show evidence, roadmap, expected outcomes, and progress.
+MVP targets, pilot roadmap, retention/absenteeism metrics, stories, dashboard preview.
+Download Brief; Contact Team.
+Only approved and verified impact data are published.
+FAQ
+Answer common user, parent, school, and partner questions.
+Grouped FAQ: periods, privacy, WhatsApp, IVR, toolkit, partner support, safety.
+Start Now; Contact Us.
+FAQ content is searchable, accessible, and CMS-editable.
+Support & Safety
+Provide safe guidance for sensitive disclosures and urgent needs.
+Privacy note, content disclaimer, non-emergency statement, helpline/referral information, safeguarding.
+Get Support; See Privacy Policy.
+Sensitive language is approved by safeguarding/health reviewer.
+Contact
+Allow structured communication with the project team.
+General form, partner form links, media enquiry, email, social links, newsletter.
+Submit Enquiry.
+User receives confirmation; admin receives notification; spam prevention active.
+Legal Pages
+Protect users and the organization with clear legal/safety information.
+Privacy policy, terms of use, cookie notice, consent statement, child/adolescent data handling, content disclaimer.
+Accept Cookies; Read More.
+Legal pages are published before public launch and linked in footer.
+
+9. Functional Requirements
+Functional requirements describe what the official website must do. Priorities are marked as Must, Should, Could, or Later. Must items are required for the first public launch.
+ID
+Priority
+Requirement
+Description
+Acceptance Criteria
+WEB-FR-001
+Must
+Responsive website
+The website must adapt cleanly to mobile, tablet, laptop, and desktop screens.
+No horizontal scrolling on common device widths; navigation and CTAs remain usable on mobile.
+WEB-FR-002
+Must
+Homepage hero CTA
+Homepage must include clear CTAs for WhatsApp start, IVR/voice support, and partner enquiry.
+Primary CTAs are visible above the fold on mobile and desktop.
+WEB-FR-003
+Must
+WhatsApp onboarding link
+Website must provide a WhatsApp link or QR code to initiate the companion onboarding flow.
+Clicking CTA opens WhatsApp with approved START message or chatbot entry.
+WEB-FR-004
+Must
+IVR/SMS/USSD instructions
+Website must display approved instructions for voice and feature-phone users.
+Users can find number/short-code instructions from Home and How It Works pages.
+WEB-FR-005
+Must
+Partner enquiry form
+Schools, clinics, NGOs, pharmacies, and funders must be able to submit structured enquiries.
+Submission sends confirmation to user and notification to admin email/CRM.
+WEB-FR-006
+Must
+General contact form
+The website must include a general contact form with spam protection and consent checkbox.
+Form validates required fields and stores/sends enquiry securely.
+WEB-FR-007
+Must
+CMS-managed resource library
+Admins must be able to add/edit menstrual health resources, FAQs, audio transcripts, and downloadable guides.
+Authorized editor can create, preview, publish, unpublish, categorize, and update resources.
+WEB-FR-008
+Must
+Searchable FAQ
+Visitors must be able to browse or search frequently asked questions.
+FAQ can be grouped by audience and updated from CMS.
+WEB-FR-009
+Must
+Privacy and safety pages
+Website must publish privacy, terms, safeguarding, and content disclaimer pages before launch.
+Footer links are visible on every page.
+WEB-FR-010
+Must
+Analytics tracking
+Website must track page views, CTA clicks, resource downloads, and form submissions.
+Analytics events are documented and visible to authorized admins.
+WEB-FR-011
+Should
+Multilingual readiness
+Architecture must support English, Hausa, Yoruba, Igbo, Pidgin, and French content over time.
+Language switcher and CMS translation structure are available or technically planned.
+WEB-FR-012
+Should
+Audio content support
+Resource pages should support embedded audio with transcripts.
+Audio player is accessible and transcript is visible/downloadable.
+WEB-FR-013
+Should
+Downloadable partner brief
+The website should allow partners/funders to download a short project brief.
+Download event is tracked and file is maintained by admin.
+WEB-FR-014
+Should
+Campaign landing pages
+Admins should be able to create campaign pages for schools, pilot sites, or funder campaigns.
+Template supports hero, content blocks, CTA, form, and tracking.
+WEB-FR-015
+Could
+Newsletter subscription
+Visitors may subscribe to updates, if consent and email marketing workflow are approved.
+Subscription includes consent and unsubscribe process.
+WEB-FR-016
+Could
+Partner/service locator interest
+Potential supply points may request to be listed in a future locator.
+Submission goes to review queue; nothing is published automatically.
+WEB-FR-017
+Later
+Public access locator
+A later phase may add map/list search for vendors, clinics, or free pad points.
+Locations are verified before publication; safety risks are assessed.
+WEB-FR-018
+Later
+Embedded AI web chat
+A later phase may embed AI support on the website after safety validation.
+Safeguarding, escalation, moderation, and age-appropriate content controls are approved.
+
+10. Content Requirements
+10.1 Content Principles
+Use simple, warm, non-judgmental language that speaks to adolescents without sounding childish or clinical.
+Avoid shame, stigma, fear-based messaging, or images that expose or embarrass girls.
+Distinguish educational support from medical diagnosis, emergency response, or counselling.
+Use culturally sensitive examples suitable for Nigeria and future West African expansion.
+Provide clear referrals for urgent health concerns, abuse, violence, severe anxiety, or emergency situations.
+Use plain language summaries before detailed explanations, especially for low-literacy audiences.
+Ensure every audio or video resource has a transcript or caption alternative.
+10.2 Required Website Copy Blocks
+Content Block
+Required Message
+Recommended Placement
+Hero headline
+A short empowering statement explaining that the companion helps girls understand periods, track cycles, ask questions privately, and access support.
+Homepage top section.
+Trust statement
+Privacy-first, inclusive, adolescent-friendly, and safe support with clear boundaries.
+Homepage, How It Works, Privacy/Safety.
+Channel explanation
+How users can start by WhatsApp, IVR, SMS/USSD, or QR code.
+Homepage and How It Works.
+Feature summaries
+Each feature explained as a user benefit, not only a technical module.
+Features page and Homepage preview.
+Toolkit story
+Why the First Period Toolkit matters and how physical tools connect to digital support.
+Toolkit page.
+Partner value proposition
+How schools, clinics, NGOs, funders, and community organizations can collaborate.
+Partners page.
+Safety disclaimer
+The website provides education and referral guidance but is not a replacement for emergency care or clinical consultation.
+Footer, Safety page, sensitive content pages.
+Privacy summary
+What data is collected, why, how it is protected, and how users can ask questions.
+Privacy page and form consent notice.
+
+10.3 Content Approval Workflow
+Step
+Responsible Role
+Action
+Draft
+Content Writer / Program Team
+Prepare article, FAQ, page copy, or campaign content in simple language.
+Health review
+Health/SRHR Reviewer
+Confirm accuracy, appropriateness, and referral language.
+Safeguarding review
+Safeguarding/Child Protection Reviewer
+Review content that touches abuse, consent, GBV, distress, or adolescent safety.
+Brand review
+Founder/Communications Lead
+Check tone, visuals, partner claims, and alignment with brand.
+Publish
+CMS Editor / Admin
+Publish approved content with metadata, tags, language, and accessibility assets.
+Review cycle
+Admin + Reviewer
+Review sensitive and health content at least every 6 months or when policy changes.
+
+11. UI/UX and Visual Design Requirements
+11.1 Design Direction
+The website should feel safe, bright, youthful, respectful, and credible. The design should avoid overly clinical visuals while also avoiding childish stereotypes. It should balance warmth with professionalism so it can serve adolescents and institutional stakeholders at the same time.
+Design Element
+Requirement
+Color palette
+Use a friendly and trustworthy palette. Recommended direction: deep purple for trust, coral/pink for warmth, teal for freshness, and soft neutral backgrounds.
+Typography
+Use clear, legible sans-serif fonts with strong contrast and readable spacing. Avoid decorative fonts for body content.
+Imagery
+Use empowering, diverse, consented, culturally appropriate images of girls, caregivers, schools, community settings, and health workers. Avoid distressing or stigmatizing images.
+Icons
+Use simple icons to support low-literacy navigation: chat, phone, calendar, pad, school, clinic, shield, heart, location.
+Tone
+Warm, calm, reassuring, and practical. Use supportive phrasing such as “You are not alone” and “Here is how to start.”
+Layout
+Mobile-first, spacious, card-based sections, clear CTAs, short paragraphs, and visual cues.
+Trust signals
+Show partner logos, approved statements, testimonials, metrics, privacy commitments, and reviewer notes only when verified.
+
+11.2 Mobile-First Requirements
+Homepage must load quickly on low-bandwidth mobile connections.
+Primary CTA buttons must be thumb-friendly and visible without excessive scrolling.
+Navigation should collapse into a simple menu with Home, Start, Learn, Partners, and Contact prioritized.
+Long resource content should use summaries, accordions, audio, and jump links.
+Forms should be short, step-based where needed, and able to save or submit without unnecessary friction.
+11.3 Homepage Wireframe Requirement
+Homepage Section
+Purpose
+Required Elements
+Hero
+Immediate clarity and action.
+Headline, short subtext, Start on WhatsApp button, Dial IVR button, Partner CTA, supportive image.
+Problem statement
+Explain why menstrual support is needed.
+3-4 short cards: stigma, school absenteeism, low access, misinformation.
+Solution overview
+Show how the companion helps.
+Channels, features, privacy-first note.
+Feature cards
+Preview key modules.
+Big Sister, Tracker, Stories, Toolkit, Locator, Check-ins.
+Inclusion section
+Demonstrate accessibility promise.
+Voice-first, low literacy, captions, Braille-friendly kit, languages.
+Toolkit spotlight
+Connect physical and digital support.
+Kit contents summary, QR onboarding, request link.
+Partner strip
+Create institutional credibility.
+Schools, clinics, NGOs, funders, pharmacies.
+Impact preview
+Communicate measurable goals.
+MVP targets and roadmap snapshots.
+Footer
+Legal, safety, contact, social, newsletter.
+Privacy, terms, safeguarding, disclaimer, contact.
+
+12. Accessibility and Inclusion Requirements
+Accessibility is not an optional feature for this website. The source product is explicitly designed for low-literacy, offline-prone, and disability-affected users. The official website must carry the same commitment in design, content, technical structure, and governance.
+ID
+Requirement
+Implementation Detail
+Acceptance Criteria
+ACC-001
+WCAG alignment
+Design and development should target WCAG 2.2 AA for public pages.
+Automated and manual checks show no critical accessibility failures.
+ACC-002
+Keyboard navigation
+All navigation, forms, buttons, menus, and media controls must be keyboard accessible.
+User can navigate key flows using keyboard only.
+ACC-003
+Screen reader support
+Use semantic HTML, alt text, form labels, headings, ARIA only when necessary.
+Screen reader can interpret navigation, forms, and content order.
+ACC-004
+Color contrast
+Text and interactive elements must meet contrast guidelines.
+Contrast checks pass for body text, buttons, links, and form errors.
+ACC-005
+Plain language
+Pages for users should use simple explanations, short sentences, and clear CTAs.
+Content review confirms reading level is appropriate for target users.
+ACC-006
+Audio/transcript support
+Audio and video content must include captions/transcripts.
+Every media item has text alternative before publication.
+ACC-007
+Low-bandwidth mode
+Pages should avoid unnecessary heavy animation/video and provide optimized images.
+Mobile page performance remains acceptable on slow connections.
+ACC-008
+Language localization
+Website structure must support local languages and content review per language.
+Translated pages can be published without breaking layout.
+
+13. Non-Functional Requirements
+Category
+Requirement
+Target / Standard
+Performance
+Homepage and key pages must load quickly on mobile networks.
+Target Largest Contentful Paint under 2.5 seconds for optimized launch pages where feasible.
+Availability
+Website should be hosted on reliable infrastructure with SSL and monitoring.
+Public pages available 99%+ monthly after launch, excluding scheduled maintenance.
+Security
+All forms, CMS access, and admin routes must be protected from common attacks.
+Use HTTPS, secure headers, spam protection, role-based access, backups, and patch management.
+Privacy
+Collect only necessary personal data and show consent notices on forms.
+Privacy policy and data retention approach approved before launch.
+Maintainability
+Content should be editable without developer intervention for routine updates.
+CMS supports page/resource updates, media management, drafts, and publishing workflow.
+Scalability
+Architecture should support traffic growth, campaign spikes, and later multilingual expansion.
+Use CDN, cache strategy, optimized assets, and scalable hosting.
+Reliability
+Forms must not silently fail; submissions must be stored or sent with confirmation.
+Admin can audit submissions and users receive confirmation message.
+Compatibility
+Website should work on current versions of Chrome, Safari, Firefox, Edge, and Android browsers.
+Cross-browser QA completed before launch.
+Compliance
+Handle adolescent health content, privacy, and safety with care aligned to relevant local policies and partner requirements.
+Legal/safeguarding review documented before public launch.
+
+14. Technical Architecture Requirements
+14.1 Recommended Architecture Options
+Layer
+Preferred Option
+Alternative
+Notes
+Frontend
+Next.js / React static or hybrid website
+WordPress theme, Webflow, or Astro
+Use mobile-first component system and SEO-friendly pages.
+CMS
+Headless CMS such as Strapi, Sanity, Directus, or WordPress headless
+Traditional WordPress with secure plugins
+CMS should support drafts, roles, review workflow, and multilingual content.
+Forms
+Backend API + database + email notification
+Form service such as HubSpot, Tally, Typeform, or Netlify Forms
+Must support consent, spam protection, and export.
+Hosting
+Vercel/Netlify for frontend + managed CMS/backend
+AWS/GCP/Azure/DigitalOcean
+Use SSL, CDN, backups, and environment separation.
+Analytics
+GA4, Plausible, Matomo, or Microsoft Clarity with privacy settings
+Metabase dashboard for internal reporting
+Track CTA clicks and content engagement.
+Integrations
+WhatsApp Business API link, IVR provider link/number, SMS/USSD instructions
+Twilio/Viamo integration where approved
+Website should route rather than manage sensitive cycle data initially.
+Search
+CMS search or static search index for resources/FAQ
+Algolia/Meilisearch later
+Keep resource discovery easy.
+Localization
+CMS language fields and frontend locale routing
+Separate translated pages in CMS
+Plan for English, Hausa, Yoruba, Igbo, Pidgin, and French.
+
+14.2 Recommended MVP Technical Stack
+Frontend: Next.js with reusable components, SEO metadata, image optimization, and static generation for content-heavy pages.
+CMS: Strapi, Sanity, Directus, or WordPress depending on team capacity and maintenance preference.
+Forms/API: Secure backend endpoint with validation, CAPTCHA or bot protection, email notification, and database/log storage.
+Hosting: Vercel or Netlify for frontend; managed hosting for CMS; Cloudflare for DNS, CDN, SSL, and basic protection.
+Analytics: Privacy-conscious analytics plus event tracking for CTA clicks, WhatsApp starts, IVR views, form submissions, downloads, and language usage.
+Version control: GitHub repository with protected main branch and deployment workflows.
+Environments: Development, staging, and production environments with separate credentials.
+14.3 Data Flow Summary
+Flow
+Description
+Data Sensitivity
+Controls
+Website visit
+Visitor opens public website and browses pages/resources.
+Low
+Cookie notice where applicable; analytics privacy configuration.
+CTA click
+Visitor clicks WhatsApp, IVR, SMS/USSD, toolkit, or partner CTA.
+Low to medium
+Track event without storing sensitive personal health data.
+Contact/partner form
+Visitor submits name, organization, contact, location, and message.
+Medium
+Consent checkbox, secure storage, access controls, retention rules.
+Resource download
+Visitor downloads guide or partner brief.
+Low to medium
+Optional tracking; avoid mandatory personal data for essential learning resources.
+Newsletter signup
+Visitor provides email/phone for updates if enabled.
+Medium
+Consent, opt-out, secure mailing list handling.
+Future locator submission
+Vendor/clinic requests listing.
+Medium
+Admin verification before publishing; no automatic public listing.
+
+15. Privacy, Safety, and Data Protection Requirements
+Because the project serves adolescent users and includes topics such as menstruation, SRHR, consent, GBV, stigma, and emotional well-being, privacy and safeguarding must be treated as core product requirements, not legal afterthoughts.
+ID
+Requirement
+Implementation Detail
+PRV-001
+Data minimization
+The website must collect only data necessary for the specific purpose, especially on public forms.
+PRV-002
+Consent notices
+Every form must explain what information is collected, why, and how the team will respond.
+PRV-003
+Sensitive data warning
+Forms should discourage users from sharing emergency details or sensitive disclosures unless a safe intake workflow exists.
+PRV-004
+Child/adolescent safety
+Content and contact pathways must be reviewed for child protection and safeguarding concerns.
+PRV-005
+Secure transmission
+All pages and forms must use HTTPS.
+PRV-006
+Access control
+Only authorized roles should view form submissions and admin analytics.
+PRV-007
+Data retention
+Define how long enquiries, contact details, and analytics events are retained.
+PRV-008
+Privacy policy
+Publish a clear privacy policy covering forms, analytics, cookies, WhatsApp/third-party links, and user rights.
+PRV-009
+Referral boundaries
+Clearly state that the website is not an emergency service and provide appropriate referral/helpline guidance where approved.
+PRV-010
+Third-party tools review
+Review WhatsApp, analytics, form tools, hosting, and email services for privacy and data transfer implications.
+
+16. Integration Requirements
+Integration
+Purpose
+Requirement
+Priority
+WhatsApp Business / Click-to-chat
+Primary start route for users.
+Website CTA must open approved WhatsApp entry with prefilled START message or official number.
+Must
+IVR provider / phone system
+Voice-first access.
+Website must show dial instructions and link phone CTA on mobile.
+Must
+SMS/USSD gateway
+Feature-phone and offline-prone access.
+Website must show short-code instructions when available.
+Must
+Email service
+Contact and partner notifications.
+Forms should send notifications to designated team inboxes and confirmation to users.
+Must
+CMS
+Content management.
+Pages, FAQs, resources, media, translations, and legal content should be CMS-managed.
+Must
+Analytics
+Performance and growth insights.
+Track traffic, CTA clicks, forms, downloads, language switching, and resource engagement.
+Must
+CRM or spreadsheet export
+Partner lead management.
+Partner form submissions should export to CRM, Airtable, Google Sheets, or admin dashboard.
+Should
+Map/locator
+Future access point search.
+Add only after verification workflow and safety review.
+Later
+Newsletter platform
+Updates and campaigns.
+Use only with consent and unsubscribe process.
+Could
+Payment/donation platform
+Fundraising or toolkit sponsorship.
+Add only if fundraising and financial controls are approved.
+Could
+
+17. Admin and CMS Requirements
+17.1 Admin Roles
+Role
+Permissions
+Super Admin
+Full site, user, CMS, settings, integrations, and deployment-level content permissions.
+Content Editor
+Create/edit drafts for pages, resources, FAQs, stories, and campaign pages; cannot publish sensitive content without approval.
+Health/SRHR Reviewer
+Review and approve technical health content, myths, FAQs, and education resources.
+Safeguarding Reviewer
+Review content involving consent, abuse, GBV, distress, adolescent safety, or referral language.
+Partner Manager
+View and manage partner enquiries, school requests, toolkit requests, and service listing interest.
+Analytics Viewer
+View dashboards and reports but cannot edit website content.
+
+17.2 CMS Content Types
+Content Type
+Fields Required
+Page
+Title, slug, hero title, summary, body sections, CTA, SEO title, SEO description, language, status.
+Article/Resource
+Title, category, target audience, summary, body, audio file, transcript, tags, author/reviewer, review date.
+FAQ
+Question, answer, category, audience, language, review status, last reviewed date.
+Drama/Story Episode
+Title, episode number, audio/video link, transcript, summary, language, duration, accessibility assets.
+Partner Type
+Name, description, benefits, requirements, CTA, downloadable resources.
+Impact Metric
+Metric label, value, period, source note, publication approval status.
+Team Member
+Name, role, bio, image, display order, approval status.
+Form Submission
+Form type, submitter name, organization, contact, location, message, consent, status, assigned owner.
+
+18. SEO, Discoverability, and Communications Requirements
+Area
+Requirement
+SEO foundations
+Every indexable page must include meta title, meta description, canonical URL, clean slug, Open Graph image, and structured headings.
+Keyword themes
+Target menstrual health education, period support for girls, first period toolkit, period tracker, menstrual hygiene, disability-inclusive SRHR, and adolescent menstrual health.
+Technical SEO
+Generate sitemap.xml, robots.txt, schema where relevant, image alt text, compressed assets, and fast page speed.
+Content SEO
+Publish educational articles and FAQs that answer real user questions in simple language.
+Social sharing
+Pages should display correctly when shared on WhatsApp, Facebook, LinkedIn, X, and other platforms.
+Analytics
+Set up dashboards for acquisition source, landing pages, CTA conversions, resource engagement, and partner leads.
+Media kit
+Provide approved boilerplate, logo usage guidance, founder bio, product screenshots/mockups, and press contact in a later phase.
+
+19. Monitoring, Analytics, and Reporting Requirements
+19.1 Website KPIs
+KPI
+Definition
+Why It Matters
+Unique visitors
+Number of individual website visitors over a period.
+Measures awareness and campaign reach.
+Start CTA clicks
+Clicks to WhatsApp, IVR, SMS/USSD, or QR instruction.
+Measures onboarding intent.
+Partner enquiries
+Completed school, clinic, NGO, pharmacy, funder, or CSO enquiry forms.
+Measures partnership pipeline.
+Toolkit requests
+Toolkit-related form submissions or download requests.
+Measures demand for physical-first onboarding.
+Resource engagement
+Views, downloads, audio plays, and transcript views.
+Measures usefulness of learning content.
+Language usage
+Number of visitors or page views per language where multilingual content exists.
+Supports localization decisions.
+Accessibility engagement
+Audio plays, transcript views, low-bandwidth page use where measurable.
+Shows whether inclusive formats are being used.
+Conversion rate
+Percentage of visitors who complete defined actions.
+Shows whether pages are clear and persuasive.
+
+19.2 Reporting Dashboard Requirements
+Monthly website performance summary for leadership and partners.
+CTA conversion dashboard showing which access channels users choose.
+Partner pipeline dashboard by organization type, state/location, status, and assigned owner.
+Content dashboard showing top resources, search terms, and frequently visited FAQs.
+Accessibility-related content engagement, including transcript and audio usage where possible.
+Campaign tracking report for school activations, toolkit distribution, and funder campaigns.
+20. Testing and Quality Assurance Requirements
+Test Type
+Scope
+Pass Criteria
+Functional testing
+Navigation, links, CTAs, forms, CMS publishing, downloads, search, FAQ, analytics events.
+All Must requirements pass before launch.
+Responsive testing
+Mobile, tablet, desktop, and common browser widths.
+No major layout break, clipping, or unusable CTA.
+Accessibility testing
+Keyboard navigation, screen reader labels, contrast, alt text, heading structure, form labels.
+No critical accessibility issue remains open.
+Content review
+Health accuracy, safeguarding language, privacy, tone, localization, and legal pages.
+Required reviewers approve all launch content.
+Security testing
+Forms, admin login, spam protection, HTTPS, headers, dependencies.
+No high-risk issue remains unresolved.
+Performance testing
+Page load speed, image optimization, caching, low-bandwidth checks.
+Core pages meet agreed performance targets.
+Cross-browser testing
+Chrome, Safari, Firefox, Edge, Android browsers, iOS Safari.
+Core flows work consistently.
+UAT
+Founder/product team, content reviewers, partner representative, and sample users.
+Sign-off documented with issue log closed or deferred.
+
+20.1 Launch Acceptance Checklist
+All Must functional requirements completed and tested.
+Homepage, How It Works, Features, Toolkit, Learn, Partners, Contact, Privacy, Terms, and Safety pages approved.
+WhatsApp, IVR, SMS/USSD, contact form, and partner form links verified.
+Mobile responsiveness approved on at least five common screen sizes.
+Accessibility check completed and critical issues fixed.
+Analytics events configured and verified.
+CMS users created with correct roles.
+Backup, SSL, security headers, and admin access controls in place.
+Legal/privacy/safeguarding review completed.
+Production domain connected and tested.
+21. Deployment, Hosting, and Operations Requirements
+Area
+Requirement
+Domain
+Use an official project domain or subdomain that clearly represents My Period Companion or My Period Kit.
+SSL
+All pages must use HTTPS with automatic certificate renewal.
+Environments
+Maintain separate development, staging, and production environments.
+Backups
+CMS database, media uploads, and form submissions must have scheduled backups.
+Deployment workflow
+Use Git-based deployment with review before production release.
+Monitoring
+Set up uptime monitoring and error alerts for production site.
+Access management
+Use strong passwords, MFA where possible, and least-privilege admin roles.
+Incident response
+Define who is contacted for downtime, broken forms, security alerts, or sensitive form submissions.
+Maintenance
+Schedule monthly updates for dependencies, CMS plugins, security patches, and content review.
+
+22. Implementation Roadmap
+Phase
+Duration
+Main Activities
+Outputs
+Phase 0: Discovery and planning
+1-2 weeks
+Confirm audience priorities, brand direction, content inventory, legal/privacy requirements, integration details, and domain strategy.
+Approved website brief, sitemap, content plan, technical stack decision.
+Phase 1: MVP design
+2-3 weeks
+Wireframes, visual design, design system, homepage, core page templates, form designs, accessibility review.
+Approved Figma/design files and content templates.
+Phase 2: MVP development
+3-5 weeks
+Build frontend, CMS, forms, core pages, resource library, analytics, WhatsApp/IVR/SMS CTAs, legal pages.
+Staging website ready for QA.
+Phase 3: QA and launch
+1-2 weeks
+Testing, content review, accessibility fixes, SEO setup, deployment, production domain, launch monitoring.
+Live official website and launch report.
+Phase 4: Pilot enhancement
+Ongoing
+Add languages, campaign pages, partner downloads, dashboards, audio resources, school onboarding materials.
+Improved conversion and content engagement.
+Phase 5: Scale features
+Later
+Access locator, CRM automation, donation/toolkit sponsorship, embedded AI chat, partner portal.
+Scaled website platform supporting broader implementation.
+
+23. Website Risks and Mitigation Plan
+Risk
+Likelihood
+Impact
+Mitigation
+Users misunderstand website as emergency support.
+Medium
+High
+Use clear disclaimers, support boundaries, and approved referral information.
+Sensitive information is submitted through general forms.
+Medium
+High
+Add form guidance, consent notices, triage process, and restricted admin access.
+Website content becomes medically outdated.
+Medium
+High
+Implement health review workflow and scheduled content review dates.
+Low-literacy users struggle with long content.
+Medium
+Medium
+Use plain language, icons, audio, summaries, and short blocks.
+Heavy images/video slow the website.
+Medium
+Medium
+Optimize images, lazy-load media, avoid autoplay, use CDN.
+Partner claims or impact metrics are published before verification.
+Low
+High
+Require approval status and source notes for all metrics/testimonials.
+Multilingual content is inconsistent or poorly translated.
+Medium
+Medium
+Use trained translators/reviewers and language-specific approval workflows.
+Admin accounts are compromised.
+Low
+High
+MFA, strong passwords, least privilege, updates, backups, audit logs.
+Website launch happens before legal/privacy readiness.
+Medium
+High
+Make privacy, terms, safeguarding, and disclaimer pages launch blockers.
+
+24. Required Website Project Deliverables
+Deliverable
+Description
+Owner
+Website requirements document
+Approved WRS describing scope, pages, features, technical requirements, and acceptance criteria.
+Product/Project Lead
+Sitemap and user journeys
+Visual sitemap and journey flows for key users.
+UX Designer
+Wireframes
+Low-fidelity layouts for all core pages and forms.
+UX Designer
+Visual design system
+Color palette, typography, components, buttons, cards, forms, icon style, imagery guidance.
+UI Designer
+Content pack
+Approved page copy, FAQs, resource content, safety language, legal links, and media assets.
+Content + Reviewers
+Frontend website
+Responsive, accessible public website built from approved designs.
+Developer
+CMS setup
+Admin roles, content types, workflow, and editorial permissions.
+Developer/Admin
+Forms and notifications
+Partner, toolkit, contact, and media enquiry forms with spam protection and confirmation flow.
+Developer
+Analytics dashboard
+Event tracking and dashboard for traffic, CTAs, forms, and resources.
+Developer/Data Lead
+QA report
+Testing evidence for functionality, accessibility, responsiveness, security, and content approval.
+QA/Project Lead
+Launch checklist
+Final approval checklist and go-live documentation.
+Project Lead
+
+25. Final Acceptance Criteria
+The website should be accepted for launch only when all critical conditions below have been met and signed off by the project owner or designated approval team.
+The homepage clearly communicates what My Period Companion is, who it is for, and how to start.
+All primary access routes are working: WhatsApp, IVR/voice, SMS/USSD instructions, and contact/partner forms.
+The website is mobile-first, responsive, accessible, and usable on low-bandwidth devices.
+All launch content has been reviewed for health accuracy, safeguarding, privacy, tone, and cultural appropriateness.
+Privacy policy, terms, safeguarding statement, and content disclaimer are published and linked in the footer.
+CMS roles, review workflow, and admin access controls are configured.
+Analytics events are verified and a basic reporting dashboard is available.
+All Must functional requirements and critical non-functional requirements are tested and passed.
+Security, backup, SSL, domain, and monitoring setups are complete.
+The project team has completed UAT and approved production launch.
+
+Appendix A: Content Preparation Checklist
+Content Item
+Status Needed Before Launch
+Project one-line description
+Approved
+Homepage hero headline and subtext
+Approved
+WhatsApp/IVR/SMS/USSD onboarding instructions
+Approved and tested
+Feature descriptions
+Approved
+First Period Toolkit description
+Approved
+Partner value proposition
+Approved
+Resource articles and FAQs
+Health reviewed
+Sensitive topic content
+Safeguarding reviewed
+Privacy policy
+Legal/privacy reviewed
+Terms of use
+Legal reviewed
+Content disclaimer
+Approved
+Images and media
+Consent cleared and optimized
+Alt text and transcripts
+Completed
+Partner logos/testimonials
+Permission verified
+
+Appendix B: Sample Homepage Content Structure
+Section
+Sample Direction
+Hero
+“Your friendly period companion, always close by.” Subtext should explain private support through WhatsApp, voice, SMS/USSD, and toolkit QR access.
+CTA row
+Start on WhatsApp | Dial Voice Support | Learn for Parents | Partner With Us
+Why it matters
+Short cards: confusion around first period, stigma, lack of products, school absenteeism, misinformation.
+How it helps
+Private Q&A, period reminders, period stories, toolkit guidance, emotional check-ins, access support.
+Built for inclusion
+Voice-first, low-literacy support, captions/transcripts, braille-friendly physical materials, local languages.
+Toolkit spotlight
+Explain how the First Period Toolkit helps girls prepare and connects them to the digital companion.
+Partner section
+Invite schools, clinics, NGOs, pharmacies, and funders to collaborate.
+Impact preview
+Show approved MVP goals and pilot progress only when verified.
+Footer
+Contact, privacy, safeguarding, terms, disclaimer, social links, newsletter.
+
+Appendix C: Requirement Traceability Matrix
+Source Application Need
+Website Requirement Response
+Onboarding via QR, IVR, and WhatsApp START
+Homepage and How It Works pages include QR, WhatsApp link, IVR instructions, and start flow.
+Menstrual Rights + Advice AI / Big Sister Mode
+Features page explains Big Sister Mode safely and routes users to approved channels.
+Period Tracker Lite
+Features page explains tracker benefits without collecting cycle data on the public website in MVP.
+Edutainment Hub
+Learn/Resources section supports drama/story pages, audio, and transcripts.
+Toolkit Builder
+First Period Toolkit page explains kit contents, school pack guidance, and refill/support enquiry.
+Access & Locator Tool
+Partners page and future locator interest form prepare for verified supply-point mapping.
+Emotional + Mental Health Check-ins
+Features and Support/Safety pages explain emotional check-ins and referral boundaries.
+Accessibility & Inclusion Layer
+Accessibility page and design requirements address voice-first, captions, transcripts, low literacy, and inclusive navigation.
+Security and privacy principles
+Privacy, safety, data minimization, consent, and form governance requirements are launch blockers.
+MVP and scale roadmap
+Impact and Roadmap sections communicate phased rollout and measurable growth targets.
+
+Appendix D: Glossary
+Term
+Meaning
+CMS
+Content Management System used by approved admins to update website pages and resources.
+CTA
+Call to Action, such as Start on WhatsApp or Partner With Us.
+IVR
+Interactive Voice Response, a phone-based voice menu system.
+USSD
+Unstructured Supplementary Service Data, a feature-phone menu channel.
+SRHR
+Sexual and Reproductive Health and Rights.
+GBV
+Gender-Based Violence.
+WCAG
+Web Content Accessibility Guidelines, used to assess website accessibility.
+MVP
+Minimum Viable Product, the first functional version for launch or pilot.
+
+Closing Note
+This document provides a structured website requirement baseline for design, development, content planning, stakeholder review, and launch readiness. It should be reviewed by the project owner, health content reviewer, safeguarding reviewer, designer, developer, and implementation partners before final sign-off.
+Prepared as a website requirements blueprint for My Period Companion.
+
