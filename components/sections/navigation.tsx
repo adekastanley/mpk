@@ -8,7 +8,7 @@ const navLinks = [
 	{ name: "About", href: "/about" },
 	{ name: "Become a Supporter", href: "/supporter" },
 	{ name: "Contact", href: "/contact" },
-	{ name: "Privacy Policy", href: "/privacy" },
+	{ name: "Get Help", href: "/help" },
 ];
 
 // Easing for smooth Awwards feel

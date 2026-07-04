@@ -203,7 +203,7 @@ export function Footer() {
 								<ul role="list" className="mt-4 space-y-3">
 									<li>
 										<Link
-											href="#"
+											href="/privacy"
 											className="text-sm text-slate-500 hover:text-pink-600 transition-colors"
 										>
 											Privacy Policy
