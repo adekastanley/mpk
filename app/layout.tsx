@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import { Footer } from "@/components/sections/footer";
 import { Navigation } from "@/components/sections/navigation";
+import Logo from "@/components/ui/logo";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -37,6 +38,7 @@ export default function RootLayout({
 			className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} h-full antialiased`}
 		>
 			<body className="min-h-full flex flex-col relative">
+				<Logo />
 				<Navigation />
 				<main className="flex-grow">{children}</main>
 				<Footer />
