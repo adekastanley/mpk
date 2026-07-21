@@ -87,78 +87,49 @@ export function Footer() {
 						<div className="md:grid md:grid-cols-2 md:gap-8">
 							<div>
 								<h3 className="text-sm font-semibold text-slate-900 tracking-wider uppercase">
-									Product
+									Organization & Strategy
 								</h3>
 								<ul role="list" className="mt-4 space-y-3">
 									<li>
-										<Link
-											href="#"
-											className="text-sm text-slate-500 hover:text-pink-600 transition-colors"
-										>
-											Features
+										<Link href="/about" className="text-sm text-slate-500 hover:text-pink-600 transition-colors">
+											Our Story
 										</Link>
 									</li>
 									<li>
-										<Link
-											href="#"
-											className="text-sm text-slate-500 hover:text-pink-600 transition-colors"
-										>
-											How It Works
+										<Link href="/about#founder" className="text-sm text-slate-500 hover:text-pink-600 transition-colors">
+											Founder
 										</Link>
 									</li>
 									<li>
-										<Link
-											href="#"
-											className="text-sm text-slate-500 hover:text-pink-600 transition-colors"
-										>
-											Pricing
+										<Link href="/about#governance" className="text-sm text-slate-500 hover:text-pink-600 transition-colors">
+											Governance
 										</Link>
 									</li>
 									<li>
-										<Link
-											href="#"
-											className="text-sm text-slate-500 hover:text-pink-600 transition-colors"
-										>
-											Reviews
+										<Link href="/impact" className="text-sm text-slate-500 hover:text-pink-600 transition-colors">
+											Impact
 										</Link>
 									</li>
 								</ul>
 							</div>
 							<div className="mt-10 md:mt-0">
 								<h3 className="text-sm font-semibold text-slate-900 tracking-wider uppercase">
-									Company
+									Innovation & Products
 								</h3>
 								<ul role="list" className="mt-4 space-y-3">
 									<li>
-										<Link
-											href="#"
-											className="text-sm text-slate-500 hover:text-pink-600 transition-colors"
-										>
-											About Us
+										<Link href="/companion" className="text-sm text-slate-500 hover:text-pink-600 transition-colors">
+											My Period Companion
 										</Link>
 									</li>
 									<li>
-										<Link
-											href="#"
-											className="text-sm text-slate-500 hover:text-pink-600 transition-colors"
-										>
-											Impact
+										<Link href="/work#standards" className="text-sm text-slate-500 hover:text-pink-600 transition-colors">
+											Engineering Standards
 										</Link>
 									</li>
 									<li>
-										<Link
-											href="#"
-											className="text-sm text-slate-500 hover:text-pink-600 transition-colors"
-										>
-											Partnerships
-										</Link>
-									</li>
-									<li>
-										<Link
-											href="#"
-											className="text-sm text-slate-500 hover:text-pink-600 transition-colors"
-										>
-											Contact
+										<Link href="/shop" className="text-sm text-slate-500 hover:text-pink-600 transition-colors">
+											Shop
 										</Link>
 									</li>
 								</ul>
@@ -167,54 +138,54 @@ export function Footer() {
 						<div className="md:grid md:grid-cols-2 md:gap-8">
 							<div>
 								<h3 className="text-sm font-semibold text-slate-900 tracking-wider uppercase">
-									Support
+									Knowledge & Assets
 								</h3>
 								<ul role="list" className="mt-4 space-y-3">
 									<li>
-										<Link
-											href="#"
-											className="text-sm text-slate-500 hover:text-pink-600 transition-colors"
-										>
-											Help Center
+										<Link href="/knowledge#research" className="text-sm text-slate-500 hover:text-pink-600 transition-colors">
+											Research
 										</Link>
 									</li>
 									<li>
-										<Link
-											href="#"
-											className="text-sm text-slate-500 hover:text-pink-600 transition-colors"
-										>
-											FAQ
+										<Link href="/knowledge#toolkits" className="text-sm text-slate-500 hover:text-pink-600 transition-colors">
+											Toolkits
 										</Link>
 									</li>
 									<li>
-										<Link
-											href="#"
-											className="text-sm text-slate-500 hover:text-pink-600 transition-colors"
-										>
-											Shipping & Returns
+										<Link href="/knowledge#media" className="text-sm text-slate-500 hover:text-pink-600 transition-colors">
+											Media
+										</Link>
+									</li>
+									<li>
+										<Link href="/news" className="text-sm text-slate-500 hover:text-pink-600 transition-colors">
+											Press
 										</Link>
 									</li>
 								</ul>
 							</div>
 							<div className="mt-10 md:mt-0">
 								<h3 className="text-sm font-semibold text-slate-900 tracking-wider uppercase">
-									Legal
+									Legal & Security Operations
 								</h3>
 								<ul role="list" className="mt-4 space-y-3">
 									<li>
-										<Link
-											href="/privacy"
-											className="text-sm text-slate-500 hover:text-pink-600 transition-colors"
-										>
+										<Link href="/privacy" className="text-sm text-slate-500 hover:text-pink-600 transition-colors">
 											Privacy Policy
 										</Link>
 									</li>
 									<li>
-										<Link
-											href="#"
-											className="text-sm text-slate-500 hover:text-pink-600 transition-colors"
-										>
+										<Link href="/privacy#data-anonymization" className="text-sm text-slate-500 hover:text-pink-600 transition-colors">
+											Data Anonymization
+										</Link>
+									</li>
+									<li>
+										<Link href="/terms" className="text-sm text-slate-500 hover:text-pink-600 transition-colors">
 											Terms of Service
+										</Link>
+									</li>
+									<li>
+										<Link href="/help" className="text-sm text-slate-500 hover:text-pink-600 transition-colors">
+											Support
 										</Link>
 									</li>
 								</ul>
@@ -223,17 +194,23 @@ export function Footer() {
 					</div>
 				</div>
 
-				{/* Bottom */}
-				<div className="mt-16 border-t border-slate-200 pt-8 sm:mt-20 lg:mt-24 flex flex-col md:flex-row justify-between items-center gap-4">
-					<p className="text-sm text-slate-400">
-						&copy; {new Date().getFullYear()} My Period Kit. All rights
-						reserved.
-					</p>
-					<div className="flex items-center gap-2 text-sm text-slate-400">
-						Powered by{" "}
-						<span className="text-pink-500">
-							<Link href="https://www/t4ef.org">T4EF</Link>
-						</span>
+				{/* Disclaimer & Bottom */}
+				<div className="mt-16 border-t border-slate-200 pt-8 sm:mt-20 lg:mt-24 space-y-6">
+					<div className="rounded-2xl bg-slate-50 p-6 text-sm text-slate-500 leading-relaxed">
+						<strong className="text-slate-700 font-semibold block mb-2">Medical Disclaimer:</strong>
+						The insights and guidance shared across this platform and within the My Period Companion AI module are created for educational and informational purposes only. They do not constitute formal medical advice, professional diagnosis, or individualized treatment courses. Always consult with qualified medical professionals regarding specific reproductive health concerns.
+					</div>
+					
+					<div className="flex flex-col md:flex-row justify-between items-center gap-4 border-t border-slate-100 pt-6">
+						<p className="text-sm text-slate-400">
+							&copy; {new Date().getFullYear()} My Period Kit Enterprise. All Rights Reserved. Powered by Ethical Innovation and Continental Partnership.
+						</p>
+						<div className="flex items-center gap-2 text-sm text-slate-400">
+							Powered by{" "}
+							<span className="text-pink-500 font-medium">
+								<Link href="https://www.t4ef.org">T4EF</Link>
+							</span>
+						</div>
 					</div>
 				</div>
 			</div>

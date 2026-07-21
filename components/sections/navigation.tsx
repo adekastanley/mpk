@@ -5,10 +5,13 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "motion/react";
 
 const navLinks = [
-	{ name: "About", href: "/about" },
-	{ name: "Become a Supporter", href: "/supporter" },
-	{ name: "Contact", href: "/contact" },
-	{ name: "Get Help", href: "/help" },
+	{ name: "About Us", href: "/about" },
+	{ name: "Our Work", href: "/work" },
+	{ name: "My Period Companion", href: "/companion" },
+	{ name: "Shop", href: "/shop" },
+	{ name: "Knowledge Hub", href: "/knowledge" },
+	{ name: "Impact", href: "/impact" },
+	{ name: "Partner With Us", href: "/partner" },
 ];
 
 // Easing for smooth Awwards feel
@@ -131,11 +134,11 @@ export function Navigation() {
 							<div className="mt-12 overflow-hidden py-2 sm:mt-16">
 								<motion.div variants={linkVariants}>
 									<Link
-										href="#"
+										href="/companion"
 										onClick={() => setIsOpen(false)}
 										className="inline-flex items-center gap-4 rounded-full bg-pink-600 px-8 py-5 text-xl font-medium text-white shadow-xl transition-all duration-300 hover:bg-white hover:text-pink-600 hover:shadow-2xl sm:text-2xl"
 									>
-										Go to the App
+										Launch Companion
 										<svg
 											className="h-6 w-6"
 											fill="none"

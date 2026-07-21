@@ -67,7 +67,7 @@ export default function Hero() {
 						variant={"outline"}
 						className="border-pink-200 bg-white/50 px-4 py-2 text-sm font-medium tracking-wide text-pink-600 uppercase shadow-sm backdrop-blur-md"
 					>
-						My Period Companion
+						Pan-African SRHR Enterprise
 					</Badge>
 				</motion.div>
 
@@ -77,7 +77,7 @@ export default function Hero() {
 					transition={{ duration: 1, ease: [0.19, 1, 0.22, 1], delay: 0.1 }}
 					className="max-w-4xl text-5xl font-light tracking-tight text-slate-900 sm:text-7xl lg:text-8xl"
 				>
-					A friendly period companion, always close by.
+					Redefining SRHR in Africa Through Innovation and Community Action.
 				</motion.h1>
 
 				<motion.p
@@ -86,8 +86,7 @@ export default function Hero() {
 					transition={{ duration: 1, ease: [0.19, 1, 0.22, 1], delay: 0.2 }}
 					className="mx-auto mt-8 max-w-2xl text-lg font-light leading-relaxed text-slate-600 sm:text-xl"
 				>
-					Access private, safe support through WhatsApp, IVR voice calls, SMS,
-					or the First Period Toolkit.
+					My Period Kit merges next-generation ethical AI, sustainable material science, and strategic global investments to dismantle inequalities and unlock bodily autonomy for all.
 				</motion.p>
 
 				<motion.div
@@ -106,7 +105,7 @@ export default function Hero() {
 							size={"lg"}
 							className="rounded-full px-8 py-7 text-base bg-pink-600 hover:bg-pink-500 text-white shadow-lg shadow-pink-600/20 transition-all duration-300 ease-in-out hover:-translate-y-1"
 						>
-							Get The App
+							Experience My Period Companion
 						</Button>
 					</Magnetic>
 
@@ -115,7 +114,7 @@ export default function Hero() {
 						variant={"outline"}
 						className="rounded-full px-8 py-7 text-base border-slate-200 bg-white hover:bg-slate-50 hover:text-pink-600 text-slate-900 shadow-sm transition-all duration-300 ease-in-out"
 					>
-						Get Help
+						Partner With Us
 					</Button>
 				</motion.div>
 
