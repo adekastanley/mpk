@@ -46,7 +46,7 @@ export default function AboutStickyNav() {
 	};
 
 	return (
-		<div className="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-slate-200">
+		<div className="sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-slate-200">
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 				<nav className="flex space-x-8 overflow-x-auto py-4 hide-scrollbar">
 					{navItems.map((item) => (
@@ -54,7 +54,9 @@ export default function AboutStickyNav() {
 							key={item.name}
 							onClick={() => scrollTo(item.href)}
 							className={`relative whitespace-nowrap text-sm font-medium tracking-wide uppercase transition-colors px-1 py-2 ${
-								activeSection === item.name ? "text-pink-600" : "text-slate-500 hover:text-slate-900"
+								activeSection === item.name
+									? "text-pink-600"
+									: "text-slate-500 hover:text-slate-900"
 							}`}
 						>
 							{item.name}
