@@ -56,7 +56,6 @@ export default function Hero() {
 			</div>
 
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center relative z-10">
-				
 				<motion.div
 					initial={{ opacity: 0, y: 20 }}
 					animate={{ opacity: 1, y: 0 }}
@@ -86,7 +85,9 @@ export default function Hero() {
 					transition={{ duration: 1, ease: [0.19, 1, 0.22, 1], delay: 0.2 }}
 					className="mx-auto mt-8 max-w-2xl text-lg font-light leading-relaxed text-slate-600 sm:text-xl"
 				>
-					My Period Kit merges next-generation ethical AI, sustainable material science, and strategic global investments to dismantle inequalities and unlock bodily autonomy for all.
+					My Period Kit merges next-generation ethical AI, sustainable material
+					science, and strategic global investments to dismantle inequalities
+					and unlock bodily autonomy for all.
 				</motion.p>
 
 				<motion.div
@@ -126,7 +127,7 @@ export default function Hero() {
 				>
 					<div className="relative aspect-square w-full rounded-[3rem] bg-gradient-to-b from-pink-100/50 to-transparent p-4 sm:p-8">
 						<Image
-							src={"/images/hand1.png"}
+							src={"/images/girl.png"}
 							width={500}
 							height={500}
 							alt="period companion chat"
