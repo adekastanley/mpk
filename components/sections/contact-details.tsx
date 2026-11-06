@@ -72,12 +72,12 @@ export default function ContactDetails() {
 						<h3 className="text-base font-semibold leading-7 text-slate-900">
 							Headquarters
 						</h3>
-						<p className="mt-2 leading-7 text-slate-600">
-							We are based in Nigeria, operating across West Africa.
+						<p className="mt-2 text-sm text-slate-600 font-medium">
+							MY PERIOD KIT LIMITED (RC 1598723)
 						</p>
-						<address className="mt-4 not-italic font-medium text-slate-900">
-							Abuja, Nigeria<br />
-							(Office visits by appointment only)
+						<address className="mt-2 not-italic font-medium text-slate-900 leading-relaxed">
+							Plot 423, Ijapo Housing Estate,<br />
+							Akure, Ondo State, Nigeria
 						</address>
 					</div>
 				</div>
@@ -88,13 +88,18 @@ export default function ContactDetails() {
 					</div>
 					<div>
 						<h3 className="text-base font-semibold leading-7 text-slate-900">
-							IVR Phone Line
+							Phone Line
 						</h3>
 						<p className="mt-2 leading-7 text-slate-600">
-							Access our voice-first companion features (Coming soon).
+							Direct telephone support and enquiries.
 						</p>
-						<p className="mt-4 font-medium text-slate-900">
-							Number TBA
+						<p className="mt-4">
+							<a
+								href="tel:08132330575"
+								className="font-medium text-emerald-600 hover:text-emerald-500"
+							>
+								08132330575
+							</a>
 						</p>
 					</div>
 				</div>

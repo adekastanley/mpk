@@ -201,14 +201,38 @@ export function Footer() {
 						The insights and guidance shared across this platform and within the My Period Companion AI module are created for educational and informational purposes only. They do not constitute formal medical advice, professional diagnosis, or individualized treatment courses. Always consult with qualified medical professionals regarding specific reproductive health concerns.
 					</div>
 					
-					<div className="flex flex-col md:flex-row justify-between items-center gap-4 border-t border-slate-100 pt-6">
-						<p className="text-sm text-slate-400">
-							&copy; {new Date().getFullYear()} My Period Kit Enterprise. All Rights Reserved. Powered by Ethical Innovation and Continental Partnership.
-						</p>
-						<div className="flex items-center gap-2 text-sm text-slate-400">
+					<div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-t border-slate-100 pt-6">
+						<div className="space-y-1 text-sm text-slate-500">
+							<p className="font-medium text-slate-700">
+								©️ 2026 MY PERIOD KIT LIMITED (RC 1598723)
+							</p>
+							<p className="text-xs text-slate-500">
+								Plot 423, Ijapo Housing Estate, Akure, Ondo State, Nigeria
+							</p>
+							<p className="text-xs text-slate-500">
+								Email:{" "}
+								<a
+									href="mailto:hello@myperiodkit.org"
+									className="text-slate-600 hover:text-pink-600 transition-colors"
+								>
+									hello@myperiodkit.org
+								</a>
+								{" · "}
+								Phone:{" "}
+								<a
+									href="tel:08132330575"
+									className="text-slate-600 hover:text-pink-600 transition-colors"
+								>
+									08132330575
+								</a>
+							</p>
+						</div>
+						<div className="flex items-center gap-2 text-sm text-slate-400 shrink-0 self-start md:self-auto">
 							Powered by{" "}
 							<span className="text-pink-500 font-medium">
-								<Link href="https://www.t4ef.org">T4EF</Link>
+								<Link href="https://www.t4ef.org" target="_blank" rel="noopener noreferrer">
+									T4EF
+								</Link>
 							</span>
 						</div>
 					</div>
